@@ -1,47 +1,47 @@
-# Web Development Project 5 - Overwatch things
+# Web Development Project 6 - overwatch things 2
 
-Submitted by: Zachary Amanuel
+Submitted by: zachary amanuel
 
-This web app: will give data about 10 random overwatch characters
+This web app: will show info on over watch characters 
 
-Time spent: 7 hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The site has a dashboard displaying a list of data fetched using an API call**
-  - The dashboard should display at least 10 unique items, one per row
-  - The dashboard includes at least two features in each row
-- [X] **`useEffect` React hook and `async`/`await` are used**
-- [X] **The app dashboard includes at least three summary statistics about the data** 
-  - The app dashboard includes at least three summary statistics about the data, such as:
-    - *insert details here*
-- [X] **A search bar allows the user to search for an item in the fetched data**
-  - The search bar **correctly** filters items in the list, only displaying items matching the search query
-  - The list of results dynamically updates as the user types into the search bar
-- [X] **An additional filter allows the user to restrict displayed items by specified categories**
-  - The filter restricts items in the list using a **different attribute** than the search bar 
-  - The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
-  - The dashboard list dynamically updates as the user adjusts the filter
+- [X] **Clicking on an item in the list view displays more details about it**
+  - Clicking on an item in the dashboard list navigates to a detail view for that item
+  - Detail view includes extra information about the item not included in the dashboard view
+  - The same sidebar is displayed in detail view as in dashboard view
+  - *To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.*
+- [X] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
+  -  *To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.*
+- [X] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+  - At least two charts should be incorporated into the dashboard view of the site
+  - Each chart should describe a different aspect of the dataset
+
 
 The following **optional** features are implemented:
 
-- [X] Multiple filters can be applied simultaneously
-- [X] Filters use different input types
-  - e.g., as a text input, a dropdown or radio selection, and/or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site’s customized dashboard contains more content that explains what is interesting about the data 
+  - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
+- [ ] The site allows users to toggle between different data visualizations
+  - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
 
+  
+The following **additional** features are implemented:
 
+* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src= 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjh0MDRpemt0NDk4cWo0MTc1OWJ2d2l3Zmtub2Y5M2N3ejM1OWp6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/StKAJza1ihSJ78ZpPL/giphy.gif' />
+<img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHZzdzR2eDB4eDJkd3U2OGltdjg0bzFzOHprcDN4OGtmNnBmN2R1ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4bx7bHUYuerWAEc6Q8/giphy.gif'/>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Licecap
+GIF created with Licecap  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -49,8 +49,7 @@ GIF created with Licecap
 
 ## Notes
 
-It was hard to make the search bar work simultaneously with the filter buttons
-
+had trouble making the graphs and also had trouble trying to make it so that clicking on the character name took you to a different page with the new info
 ## License
 
     Copyright [yyyy] [name of copyright owner]
