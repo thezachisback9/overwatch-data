@@ -1,19 +1,19 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.cont{
+/* Makes sidebar and content side by side */
+.app-layout {
   display: flex;
-  gap: 200px;
+  min-height: 100vh; /* Full height of the screen */
 }
 
-img{
-  display: block;
-  width: 30px;
-  height: 30px;
-  padding: 2px;
-  margin-left: 70px;
+/* Sidebar on the left */
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: black;
+  border-right: 1px solid #ccc;
+}
+
+/* Main content takes up the rest */
+.main-content {
+  flex: 1;
+  padding: 20px;
 }
