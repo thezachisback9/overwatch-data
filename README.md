@@ -1,4 +1,4 @@
-Overwatch Data
+## Overwatch Data
 This web application displays information about Overwatch characters. Users can explore a dashboard view, click on individual characters to see detailed info, and view data visualizations that reveal trends and comparisons across the different characters.
 
 
@@ -11,3 +11,4 @@ Two distinct charts were added to the dashboard—each focused on a different as
 
 Lessons Learned:
 I struggled a bit with setting up the charts and figuring out how to feed the fetched data into the Recharts components. Another challenge was making sure each character name linked correctly to its own detail page while keeping the sidebar visible. Once I figured out the data flow and layout structure, it became easier to piece the pages together.
+
